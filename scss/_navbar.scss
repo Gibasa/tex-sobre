@@ -1,5 +1,13 @@
 @use "variaveis" as v;
 
+.sob-nav{
+  margin: 0;
+  display: flex;
+  background-image: url(../images/img-coding.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 15vh;;
+}
 .navbar {
     font-family: v.$roboto;
     display: flex;
