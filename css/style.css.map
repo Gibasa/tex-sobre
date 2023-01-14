@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/_reset.scss","../scss/_navbar.scss","../scss/_variaveis.scss"],"names":[],"mappings":"AAAQ;AAGR;EACI;EACA;EACA;;;AAEF;EACE;;;AAEF;EACE;;;ACVJ;EACI,aCHK;EDIL;EACA,kBCHE;EDIF;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA,OCfE;EDgBF;EACA;EACA;EACA;;AACA;EACE,OCtBA","file":"style.css"}
