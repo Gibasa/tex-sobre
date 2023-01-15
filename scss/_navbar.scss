@@ -1,0 +1,38 @@
+@use "variaveis" as v;
+
+.sob-nav{
+  margin: 0;
+  display: flex;
+  background-image: url(../images/img-coding.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 15vh;;
+}
+.navbar {
+    font-family: v.$roboto;
+    display: flex;
+    background-color: v.$cor2;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;    
+  }
+
+  .navbar__link {
+    display: flex;
+    color: v.$cor4;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      color: v.$cor3;
+    }
+  }
+
+  
