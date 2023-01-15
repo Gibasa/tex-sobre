@@ -1,0 +1,20 @@
+@use "variaveis" as v;
+
+@media (max-width: 414px) and (orientation: portrait) {
+    .redes-drop{
+        display: flex;
+        flex-direction: column;
+        padding:10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-site{
+        padding: 10px 0 10px 0;
+    }
+    .redes-sociais{
+        padding: 10px 0 10px 0;
+    }
+    .dropdown{
+        padding: 10px 0 10px 0;
+    }
+}

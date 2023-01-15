@@ -1,21 +1,53 @@
 @use "variaveis" as v;
 @use "mixin" as mx;
 
-.sobre{
-    @include mx.justify-align-flex;
-    
-    background-color: v.$cor3;
-    flex-direction: column;
-    h2 {
-        margin: 40px 0 30px 0;
-        font-size: 2.5rem;
-        color: v.$cor1;
-    }
-    p{
-        @include mx.container;
-        text-align: justify;
-        justify-content: center;
-        font-size: 1.5rem;
-        margin: 10px;
-    }
+/*Main*/
+/*Sobre*/
+.sobre {
+  @include mx.justify-align-flex;
+
+  background-color: v.$cor3;
+  flex-direction: column;
+  h2 {
+    @include mx.h2;
+  }  
+  p {
+    @include mx.container;
+    text-align: justify;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
 }
+
+/*Competencias*/
+
+.competencias {
+  @include mx.justify-align-flex;
+  background-color: v.$cor4;
+  flex-direction: column;
+  h2 {
+    @include mx.h2;
+    font-size: 2.5rem;
+    }
+  h3 {
+    margin: 40px 0 30px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: v.$cor1;
+    margin: 0 0 10px 0
+  }
+  p {
+    @include mx.container;
+    text-align: justify;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  i{
+    color: v.$cor1;
+    margin-top: 20px;
+  }
+}
+
+
